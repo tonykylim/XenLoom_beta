@@ -3,8 +3,8 @@
 This repository contains a software framework for a visual-evoked behavioural assay in Xenopus laevis tadpoles.
 Specifically, this repository includes code that allows:
 - Presention of virtual looming stimuli and simultaneous recording of behavioural responses,
-- analysis of recorded responses to discern escape behaviour from the absence of escape behaviour, and
-- tadpole tracking for the automated extraction of motor activity.
+- Analysis of recorded responses to discern escape behaviour from the absence of escape behaviour, and
+- Tadpole tracking for the automated extraction of motor activity.
 
 ## Getting Started
 
