@@ -6,8 +6,6 @@ Specifically, this repository includes code that allows:
 - analysis of recorded responses to discern escape behaviour from the absence of escape behaviour, and
 - tadpole tracking for the automated extraction of motor activity.
 
-This tool was developed by Tony KY Lim under the supervision of Dr Edward S Ruthazer. http://ruthazerlab.mcgill.ca/
-
 ## Getting Started
 
 The code has been partitioned into 3 modules (stim-present, loom-decision, tad-tracker) which correspond to the above 3 functions.
@@ -47,69 +45,21 @@ Requirements to run this behavioural assay:
      - Black umbrella, or a microphone boom arm to hold a black shade
        - important for blocking ceiling lights
 
-
-
 ## Installing
 
-A step by step series of examples that tell you how to get a development env running
+Instructions to come
 
-Say what the step will be
+## Running the code
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Instructions to come
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+A version of XenLoom with more advanced stimulus presentation and data extraction features is in the works.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+This tool was developed by Tony KY Lim under the supervision of Dr Edward S Ruthazer. http://ruthazerlab.mcgill.ca/
 
 ## License
 
@@ -120,7 +70,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
-
-
-
-# XenLoom_beta
