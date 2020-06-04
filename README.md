@@ -67,6 +67,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Apologies to all the tadpoles on the receiving end of a looming stimulus. We <3 you.
