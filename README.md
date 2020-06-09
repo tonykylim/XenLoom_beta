@@ -50,7 +50,7 @@ Requirements to run this behavioural assay:
      - Black umbrella, or a microphone boom arm to hold a black shade
        - important for blocking glare from ceiling lights
 
-![experimental-setup](https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/experimental-setup.jpg){:height="50%" width="50%"}
+<img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/experimental-setup.jpg" width="200" height="400" />
 
 ## Installing
 
