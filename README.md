@@ -41,11 +41,10 @@ Requirements to run this behavioural assay:
      - Filament used: https://www.iprint-3d.com/products/transparent-purple-pla-3d-filament?variant=35097294661
    - 2000 lumens projector (modified)
      - Tested to work with this projector https://www.amazon.ca/gp/product/B07F7RT9XZ/
-     - 3D printed lens holder
-       - https://www.thingiverse.com/thing:4335379
+     - 3D printed lens holder https://www.thingiverse.com/thing:4335379
      - This projector is currently no longer available, if you are having trouble please contact me and I will try to find a solution for you
    - Webcam
-     - Tested to work with the logitech C920 as well as the logitech C922 camera
+     - Tested to work with the logitech C920 and C922 webcams
    - Other useful things:
      - Microphone boom arm to hold webcam eg. https://www.amazon.ca/gp/product/B07QH4J3GZ/
      - Black umbrella, or a microphone boom arm to hold a black shade
