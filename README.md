@@ -18,7 +18,8 @@ Finally, the tad-tracker module is a tool for the automated tracking of Xenopus 
 
 ## Expected results
 
-![example-video](https://media.giphy.com/media/US1M3FK0ONWvkuUKPp/giphy.gif)
+![example-video](https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/looming-example.gif)
+Representative response to dark looming stimuli in a control tadpole (Stage 47).
 
 ## Prerequisites
 
@@ -39,15 +40,14 @@ Requirements to run this behavioural assay:
      - Filament used: https://www.iprint-3d.com/products/transparent-purple-pla-3d-filament?variant=35097294661
    - 2000 lumens projector (modified)
      - Tested to work with this projector https://www.amazon.ca/gp/product/B07F7RT9XZ/
-     - 3D printed lens holder
-       - https://www.thingiverse.com/thing:4335379
+     - 3D printed lens holder https://www.thingiverse.com/thing:4335379
      - This projector is currently no longer available, if you are having trouble please contact me and I will try to find a solution for you
    - Webcam
-     - Tested to work with the logitech C920 as well as the logitech C922 camera
+     - Tested to work with the logitech C920 and C922 webcams
    - Other useful things:
      - Microphone boom arm to hold webcam eg. https://www.amazon.ca/gp/product/B07QH4J3GZ/
      - Black umbrella, or a microphone boom arm to hold a black shade
-       - important for blocking ceiling lights
+       - important for blocking glare from ceiling lights
 
 ## Installing
 
@@ -59,11 +59,11 @@ Instructions to come
 
 ## Versioning
 
-A version of XenLoom with more advanced stimulus presentation and data extraction features is in the works.
+A version of XenLoom with more advanced stimulus presentation and data extraction features is in the works and will be available at http://github.com/tonykylim/XenLoom and http:/ruthazerlab.mcgill.ca/
 
 ## Authors
 
-This tool was developed by Tony KY Lim under the supervision of Dr Edward S Ruthazer. http://ruthazerlab.mcgill.ca/
+This tool was developed by Tony K.Y. Lim and Dr Edward S. Ruthazer. http://ruthazerlab.mcgill.ca/
 
 ## License
 
