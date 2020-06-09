@@ -18,7 +18,7 @@ Finally, the tad-tracker module is a tool for the automated tracking of Xenopus 
 
 ## Expected results
 
-![](https://media.giphy.com/media/US1M3FK0ONWvkuUKPp/giphy.gif)
+![example-video](https://media.giphy.com/media/US1M3FK0ONWvkuUKPp/giphy.gif)
 
 ## Prerequisites
 
