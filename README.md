@@ -16,6 +16,10 @@ This data is in turn fed into the loom-decision module, where the data is coded 
 
 Finally, the tad-tracker module is a tool for the automated tracking of Xenopus tadpoles, extracting: pre- and post-loom motor activity, contrails, escape distance, maximum escape velocity, and initial escape angle.
 
+## Expected results
+
+![Example response](https://j.gifs.com/GvkE1r.gif)
+
 ## Prerequisites
 
 Requirements to run this behavioural assay:
