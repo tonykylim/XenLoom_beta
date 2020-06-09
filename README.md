@@ -19,6 +19,7 @@ Finally, the tad-tracker module is a tool for the automated tracking of Xenopus 
 ## Expected results
 
 ![example-video](https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/looming-example.gif)
+
 Representative response to dark looming stimuli in a control tadpole (Stage 47).
 
 ## Prerequisites
