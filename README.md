@@ -19,7 +19,6 @@ Finally, the tad-tracker module is a tool for the automated tracking of Xenopus 
 ## Expected results
 
 ![example-video](https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/looming-example.gif)
-
 Representative response to dark looming stimuli in a control tadpole (Stage 47).
 
 ## Prerequisites
@@ -60,11 +59,11 @@ Instructions to come
 
 ## Versioning
 
-A version of XenLoom with more advanced stimulus presentation and data extraction features is in the works.
+A version of XenLoom with more advanced stimulus presentation and data extraction features is in the works and will be available at http://github.com/tonykylim/XenLoom and http:/ruthazerlab.mcgill.ca/
 
 ## Authors
 
-This tool was developed by Tony KY Lim under the supervision of Dr Edward S Ruthazer. http://ruthazerlab.mcgill.ca/
+This tool was developed by Tony K.Y. Lim and Dr Edward S. Ruthazer. http://ruthazerlab.mcgill.ca/
 
 ## License
 
