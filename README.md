@@ -20,7 +20,7 @@ Finally, the tad-tracker module is a tool for the automated tracking of Xenopus 
 
 ![example-video](https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/looming-example.gif)
 
-Representative response to dark looming stimuli in a control tadpole (Stage 47).
+- Representative response to dark looming stimuli in a control tadpole (Stage 47).
 
 ## Prerequisites
 
@@ -44,18 +44,28 @@ Requirements to run this behavioural assay:
      - 3D printed lens holder https://www.thingiverse.com/thing:4335379
      - This projector is currently no longer available, if you are having trouble please contact me and I will try to find a solution for you
    - Webcam
-     - Tested to work with the logitech C920 and C922 webcams
+     - Tested to work with logitech C920 and C922 webcams
    - Other useful things:
      - Microphone boom arm to hold webcam eg. https://www.amazon.ca/gp/product/B07QH4J3GZ/
      - Black umbrella, or a microphone boom arm to hold a black shade
        - important for blocking glare from ceiling lights
 
-<img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/experimental-setup.jpg" width=50% height=50% />
-
 ## Installing
 
 1. Install Psychopy 3 https://www.psychopy.org/
-2. 
+2. Download code to a directory where you would like to save:
+   - .CSV files (timing data)
+   - .avi files (video data)
+
+## Experimental setup
+
+<img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/experimental-setup.jpg" width=50% height=50% />
+
+- What the setup looks like
+
+1. It is recommended to run the experiment in a well lit room (under typical lighting for an office or laboratory)
+2. Tape a white piece of paper onto the 8 inch Carolina glass bowl to serve as the screen
+3. 
 
 ## Running the code
 
