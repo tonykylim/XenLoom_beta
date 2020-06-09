@@ -19,6 +19,7 @@ Finally, the tad-tracker module is a tool for the automated tracking of Xenopus 
 ## Expected results
 
 ![example-video](https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/looming-example.gif)
+Representative response to dark looming stimuli in a control tadpole (Stage 47).
 
 ## Prerequisites
 
@@ -47,7 +48,7 @@ Requirements to run this behavioural assay:
    - Other useful things:
      - Microphone boom arm to hold webcam eg. https://www.amazon.ca/gp/product/B07QH4J3GZ/
      - Black umbrella, or a microphone boom arm to hold a black shade
-       - important for blocking ceiling lights
+       - important for blocking glare from ceiling lights
 
 ## Installing
 
