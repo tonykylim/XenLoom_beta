@@ -19,6 +19,7 @@ Finally, the tad-tracker module is a tool for the automated tracking of Xenopus 
 ## Expected results
 
 ![example-video](https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/looming-example.gif)
+
 Representative response to dark looming stimuli in a control tadpole (Stage 47).
 
 ## Prerequisites
@@ -49,9 +50,12 @@ Requirements to run this behavioural assay:
      - Black umbrella, or a microphone boom arm to hold a black shade
        - important for blocking glare from ceiling lights
 
+![experimental-setup](https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/experimental-setup.jpg){:height="50%" width="50%"}
+
 ## Installing
 
-Instructions to come
+1. Install Psychopy 3 https://www.psychopy.org/
+2. 
 
 ## Running the code
 
@@ -71,4 +75,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Apologies to all the tadpoles on the receiving end of a looming stimulus. We <3 you.
+* Apologies to all the tadpoles on the receiving end of a looming stimulus.
