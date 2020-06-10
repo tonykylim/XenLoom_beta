@@ -1,4 +1,4 @@
-# XenLoom (beta): Visual stimulus presentation and tracking for Xenopus tadpoles :frog:
+# XenLoom (beta): Tracking visual-evoked behaviours in Xenopus tadpoles :frog:
 
 This repository contains a software framework for a visual-evoked behavioural assay in Xenopus laevis tadpoles.
 Specifically, this repository includes code that allows:
