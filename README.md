@@ -40,6 +40,7 @@ Requirements to run this behavioural assay:
    - 3D printed stage https://www.thingiverse.com/thing:4335395
      - Filament used: https://www.iprint-3d.com/products/transparent-purple-pla-3d-filament?variant=35097294661
    - 2000 lumens projector (modified)
+     - The projector lens is removed from the housing and moved forwards, in order to shorten the focal length of the projector
      - Tested to work with this <$100 projector https://www.amazon.ca/gp/product/B07F7RT9XZ/
      - 3D printed lens holder https://www.thingiverse.com/thing:4335379
      - This projector is currently no longer available, if you are having trouble please contact me and I will try to find a solution for you
