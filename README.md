@@ -40,22 +40,28 @@ Requirements to run this behavioural assay:
    - 3D printed stage https://www.thingiverse.com/thing:4335395
      - Filament used: https://www.iprint-3d.com/products/transparent-purple-pla-3d-filament?variant=35097294661
    - 2000 lumens projector (modified)
-     - Tested to work with this projector https://www.amazon.ca/gp/product/B07F7RT9XZ/
+     - Tested to work with this <$100 projector https://www.amazon.ca/gp/product/B07F7RT9XZ/
      - 3D printed lens holder https://www.thingiverse.com/thing:4335379
      - This projector is currently no longer available, if you are having trouble please contact me and I will try to find a solution for you
    - Webcam
      - Tested to work with logitech C920 and C922 webcams
+   - Petri dishes
+     - We use these https://www.fishersci.ca/shop/products/fisherbrand-petri-dishes-clear-lid-12/fb0875713a
+     - Other Petri dishes can work, but you'll likely have to tweak the settings
    - Other useful things:
      - Microphone boom arm to hold webcam eg. https://www.amazon.ca/gp/product/B07QH4J3GZ/
-     - Black umbrella, or a microphone boom arm to hold a black shade
+     - Black umbrella, or a black shade on a microphone boom arm
        - important for blocking glare from ceiling lights
 
 ## Installing
 
 1. Install Psychopy 3 https://www.psychopy.org/
 2. Download code to a directory where you would like to save:
-   - .CSV files (timing data)
+   - .csv files (timing data)
    - .avi files (video data)
+3. Install additional python libraries
+   - Open a command prompt (Windows button + R, type "cmd" and hit enter)
+   - "python -m pip install imutils" 
 
 ## Experimental setup
 
@@ -64,10 +70,16 @@ Requirements to run this behavioural assay:
 - What the setup looks like
 
 1. It is recommended to run the experiment in a well lit room (under typical lighting for an office or laboratory)
-2. Tape a white piece of paper onto the 8 inch Carolina glass bowl to serve as the screen
-3. 
+2. Fill the 8-inch Carolina glass culture dish (bowl) with 0.1X MBSH, until ~90-95% full.
+3. Place the 8-inch Carolina glass culture dish (bowl) onto the 3D printed stage
+4. Connect the webcam and projector to the computer and boot up the computer.
+5. The resolution of the projector should be set to 800X600 pixels.
+6. Cut out a white piece of paper to serve as a projector screen. It should be as tall as the Carolina glass bowl, and wide enough so that the projector image stays within the bounds of the paper screen.
+7. Tape the paper onto the 8-inch Carolina glass bowl.
+8. Focus the projector onto the screen so that the middle of the screen is in focus, and that the image from the projector takes up the full height of the paper screen. The side edges of the projector image will be slightly blurry as the paper follows the curvature of the bowl.
+9. 
 
-## Running the code
+## Running the experiment
 
 Instructions to come
 
@@ -77,7 +89,7 @@ A version of XenLoom with more advanced stimulus presentation and data extractio
 
 ## Authors
 
-This tool was developed by Tony K.Y. Lim and Dr Edward S. Ruthazer. http://ruthazerlab.mcgill.ca/
+This tool was developed by Dr Tony K.Y. Lim in the lab of Dr Edward S. Ruthazer. http://ruthazerlab.mcgill.ca/
 
 ## License
 
