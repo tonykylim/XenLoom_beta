@@ -92,7 +92,7 @@ A version of XenLoom with more advanced stimulus presentation and data extractio
 
 This tool was developed by Dr Tony K.Y. Lim and Dr Edward S. Ruthazer. http://ruthazerlab.mcgill.ca/
 
-<img src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" width=10% height=10% /><img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width=10% height=10% />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" width=10% height=10% />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width=10% height=10% />
 
 ## License
 
