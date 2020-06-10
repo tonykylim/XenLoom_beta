@@ -39,7 +39,7 @@ Requirements to run this behavioural assay:
    - Carolina 8-inch culture dish https://www.carolina.com/lab-dishes/culture-dishes-carolina-8-in-1500-ml/741006.pr
    - 3D printed stage https://www.thingiverse.com/thing:4335395
      - Filament used: https://www.iprint-3d.com/products/transparent-purple-pla-3d-filament?variant=35097294661
-   - 2000 lumens projector (modified)
+   - 2000 lumens projector (modified) ![Photo](https://cdn.thingiverse.com/assets/e2/15/bd/b0/b2/featured_preview_Picture1.jpg)
      - The projector lens is removed from the housing and moved forwards, in order to shorten the focal length of the projector
      - Tested to work with this <$100 projector https://www.amazon.ca/gp/product/B07F7RT9XZ/
      - 3D printed lens holder https://www.thingiverse.com/thing:4335379
