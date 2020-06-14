@@ -72,13 +72,16 @@ Requirements to run this behavioural assay:
 
 1. It is recommended to run the experiment in a well lit room (under typical lighting for an office or laboratory)
 2. Fill the 8-inch Carolina glass culture dish (bowl) with 0.1X MBSH, until ~90-95% full.
-3. Place the 8-inch Carolina glass culture dish (bowl) onto the 3D printed stage
+3. Place the 8-inch Carolina glass bowl onto the 3D printed stage.
 4. Connect the webcam and projector to the computer and boot up the computer.
 5. The resolution of the projector should be set to 800X600 pixels.
 6. Cut out a white piece of paper to serve as a projector screen. It should be as tall as the Carolina glass bowl, and wide enough so that the projector image stays within the bounds of the paper screen.
 7. Tape the paper onto the 8-inch Carolina glass bowl.
 8. Focus the projector onto the screen so that the middle of the screen is in focus, and that the image from the projector takes up the full height of the paper screen. The side edges of the projector image will be slightly blurry as the paper follows the curvature of the bowl.
-9. 
+9. Place both halves of a petri dish into the Carolina glass bowl so that the halves fill with MBSH without bubbles. Place a tadpole into the bottom petri dish half, and entrap the tadpole by covering with the matching petri dish half. Be careful to note introduce bubbles within the petri dish.
+10. Maneuveur the petri dish into the middle of the Carolina glass bowl.
+11. Align the webcam so that the entire the petri dish is in the field of view, and that the webcam is viewing the petri dish from directly overhead.
+12. View the webcam feed and remove ceiling light glare by covering lights with black shades or umbrellas.
 
 ## Running the experiment
 
