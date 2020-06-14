@@ -50,6 +50,7 @@ Requirements to run this behavioural assay:
      - Other Petri dishes can work, but you'll likely have to tweak the settings
    - Other useful things:
      - Microphone boom arm to hold webcam eg. https://www.amazon.ca/gp/product/B07QH4J3GZ/
+       - Or 3D print your own here https://www.thingiverse.com/thing:2194278
      - Black umbrella, or a black shade on a microphone boom arm
        - important for blocking glare from ceiling lights
 
