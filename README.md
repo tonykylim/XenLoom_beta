@@ -98,7 +98,7 @@ This tool was developed by Tony K.Y. Lim and Edward S. Ruthazer. http://ruthazer
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
