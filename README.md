@@ -102,5 +102,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Apologies to all the tadpoles on the receiving end of a looming stimulus.
+* Apologies to all the tadpoles on the receiving end of a looming stimulus.</br>
   :slightly_smiling_face: :black_small_square: :black_medium_small_square: :black_medium_square: :black_large_square: :astonished:
