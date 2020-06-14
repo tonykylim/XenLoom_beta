@@ -77,7 +77,8 @@ What the setup looks like in reality: <br /><img src="https://github.com/tonykyl
 6. Cut out a white piece of paper to serve as a projector screen. It should be as tall as the Carolina glass bowl, and wide enough so that the projector image stays within the bounds of the paper screen.
 7. Tape the paper onto the 8-inch Carolina glass bowl.
 8. Focus the projector onto the screen so that the middle of the screen is in focus, and that the image from the projector takes up the full height of the paper screen. The side edges of the projector image will be slightly blurry as the paper follows the curvature of the bowl.
-9. Place both halves of a petri dish into the Carolina glass bowl so that the halves fill with MBSH without bubbles. Place a tadpole into the bottom petri dish half, and entrap the tadpole by covering with the matching petri dish half. Be careful to note introduce bubbles within the petri dish.
+9. Using powder free gloves, place both halves of a petri dish into the Carolina glass bowl so that the halves fill with MBSH without bubbles. Place a tadpole into the bottom petri dish half, and entrap the tadpole by covering with the matching petri dish half. Be careful to note introduce bubbles within the petri dish.
+   - Use of gloves is recommended to reduce the chance of introducing particles into the MBSH which may complicate tracking.
 10. Maneuveur the petri dish into the middle of the Carolina glass bowl.
 11. Align the webcam so that the entire the petri dish is in the field of view, and that the webcam is viewing the petri dish from directly overhead.
 12. View the webcam feed and remove ceiling light glare by covering lights with black shades or umbrellas.
