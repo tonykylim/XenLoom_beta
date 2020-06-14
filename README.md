@@ -102,4 +102,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Apologies to all the tadpoles on the receiving end of a looming stimulus. &nbsp; :slightly_smiling_face: &nbsp;&nbsp; :black_small_square: &nbsp;&nbsp; :black_medium_small_square: &nbsp;&nbsp; :black_medium_square: &nbsp;&nbsp; :black_large_square: &nbsp;&nbsp; :astonished:
+* Apologies to all the tadpoles on the receiving end of a looming stimulus. &nbsp; :slightly_smiling_face: &nbsp;&nbsp;&nbsp; :black_small_square: &nbsp;&nbsp; :black_medium_small_square: &nbsp;&nbsp; :black_medium_square: &nbsp;&nbsp; :black_large_square: &nbsp;&nbsp;&nbsp; :astonished:
