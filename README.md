@@ -18,8 +18,8 @@ Finally, the tad-tracker module is a tool for the automated tracking of Xenopus 
 
 ## Expected results
 
-![example-video](https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/looming-example.gif) <br />
-- Representative response to dark looming stimuli in a control tadpole (Stage 47).
+Representative response to dark looming stimuli in a control tadpole (Stage 47).<br />
+![example-video](https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/looming-example.gif) 
 
 ## Prerequisites
 
@@ -65,9 +65,9 @@ Requirements to run this behavioural assay:
 
 ## Experimental setup
 
-<img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/diagram.png" width=50% height=50% /><br /> Diagram of setup
+Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/diagram.png" width=50% height=50% />
 
-<img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/experimental-setup.jpg" width=50% height=50% /><br /> What the setup looks like in reality
+What the setup looks like in reality: <br /><img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/experimental-setup.jpg" width=50% height=50% /> 
 
 1. It is recommended to run the experiment in a well lit room (under typical lighting for an office or laboratory)
 2. Fill the 8-inch Carolina glass culture dish (bowl) with 0.1X MBSH, until ~90-95% full.
