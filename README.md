@@ -67,7 +67,7 @@ Requirements to run this behavioural assay:
 
 Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/diagram.png" width=50% height=50% />
 
-What the setup actually looks like in reality: <br /><img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/experimental-setup.jpg" width=50% height=50% /> 
+...What the setup actually looks like in reality: <br /><img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/experimental-setup.jpg" width=50% height=50% /> 
 
 1. It is recommended to run the experiment in a well lit room (under typical lighting for an office or laboratory)
 2. Fill the 8-inch Carolina glass culture dish (bowl) with 0.1X MBSH, until ~90-95% full.
