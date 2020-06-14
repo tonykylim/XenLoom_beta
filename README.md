@@ -18,8 +18,7 @@ Finally, the tad-tracker module is a tool for the automated tracking of Xenopus 
 
 ## Expected results
 
-![example-video](https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/looming-example.gif)
-
+![example-video](https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/looming-example.gif) <br />
 - Representative response to dark looming stimuli in a control tadpole (Stage 47).
 
 ## Prerequisites
@@ -66,12 +65,10 @@ Requirements to run this behavioural assay:
 
 ## Experimental setup
 
-<img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/diagram.png" width=50% height=50% />
-
+<img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/diagram.png" width=50% height=50% /><br />
 - Diagram of setup
 
-<img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/experimental-setup.jpg" width=50% height=50% />
-
+<img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/experimental-setup.jpg" width=50% height=50% /><br />
 - What the setup looks like in reality
 
 1. It is recommended to run the experiment in a well lit room (under typical lighting for an office or laboratory)
