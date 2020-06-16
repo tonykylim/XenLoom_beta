@@ -93,7 +93,7 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
 3. Open PsychoPy and open the videocapturethread script. Press the run button (Control + R).
 4. Fill in the prompt that pops up with the following info:
    - Animal ID
-      - Eg. Pepe, Kermit, PluToad, MCHopper, Toadie, Sir Croaks-A-Lot, SnoopFrogg, etc
+      - Eg. Pepe, Kermit, PluToad, MC Hopper, Toadie, Sir Croaks-A-Lot, SnoopFrogg, etc
    - Timepoint
       - Eg. S47, Stage 47, Day 2, Timepoint 4, IShouldBeAsleepButInsteadIAmRunningExperiments, etc
    - Treatment
