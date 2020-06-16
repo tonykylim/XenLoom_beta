@@ -93,10 +93,14 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
 3. Open PsychoPy and open the videocapturethread script. Press the run button (Control + R).
 4. Fill in the prompt that pops up with the following info:
    - Animal ID
-   - Experiment type
+      - Eg. 39 (animal#39), etc
+   - Timepoint
+      - Eg. S47 (Stage47), Day2, Timepoint4, etc
    - Treatment
-   *** Important: Do not use underscores when filling out the above info.
-5.
+      - Eg. Vehicle, drug, visual stimulation, etc
+   - *** Important: Do not use _ underscores, / back slashes, \ forward slashes, | vertical bar, ? question marks, < less than, > greater than, : colon, or * asterisks, when filling out the above info. Recommended that you use alphanumeric responses. ***
+   - Note that if you enter in values that corresspond to previously captured data, the script will overwrite the old data.
+5. 
 
 ## Versioning
 
