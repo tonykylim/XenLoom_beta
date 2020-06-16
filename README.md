@@ -86,7 +86,17 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
 
 ## Running the experiment
 
-Instructions to come
+1. Open "background image settings" in windows system settings, and from the dropdown menu select "solid color".
+   - Set the background to white if doing dark looming stimuli experiments.
+   - Set the background to black if doing bright looming stimuli experiments.
+2. Place the videocapturethread python script in a directory where you would like to save the behavioural data.
+3. Open PsychoPy and open the videocapturethread script. Press the run button (Control + R).
+4. Fill in the prompt that pops up with the following info:
+   - Animal ID
+   - Experiment type
+   - Treatment
+   * Important: Do not use underscores when filling out the above info.
+5.
 
 ## Versioning
 
