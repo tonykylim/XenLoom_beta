@@ -99,7 +99,7 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
    - Treatment
       - Eg. Vehicle, Drugs!, Visual Stimulation, Soft Rock Music, etc
    - *** Important: Do not use _ underscores, / back slashes, \ forward slashes, | vertical bar, ? question marks, < less than, > greater than, : colon, or * asterisks, when filling out the above info. Recommended that you use alphanumeric responses. Spaces are OK. Periods are probably OK but I would avoid using them. ***
-   - Note that if you enter in values that correspond to previously captured data, the script will overwrite the old data.
+   - *** Note that if you enter in values that correspond to previously captured data, the script will overwrite the old data. ***
 5. 
 
 ## Versioning
