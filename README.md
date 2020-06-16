@@ -95,7 +95,7 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
    - Animal ID
    - Experiment type
    - Treatment
-   * Important: Do not use underscores when filling out the above info.
+   *** Important: Do not use underscores when filling out the above info.
 5.
 
 ## Versioning
