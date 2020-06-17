@@ -86,12 +86,17 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
 
 ## Running the experiment
 
-1. Open "background image settings" in windows system settings, and from the dropdown menu select "solid color".
+# Collecting Data
+1. Use the videocapturetest.py script to view the webcam feed. Ensure that:
+   - The petri dish is centered
+   - The webcam is positioned directly overhead
+   - No glare obscures the petri dish
+2. Open "background image settings" in windows system settings, and from the dropdown menu select "solid color".
    - Set the background to white if doing dark looming stimuli experiments.
    - Set the background to black if doing bright looming stimuli experiments.
-2. Place the videocapturethread python script in a directory where you would like to save the behavioural data.
-3. Open PsychoPy and open the videocapturethread script. Press the run button (Control + R).
-4. Fill in the prompt that pops up with the following info:
+3. Place the videocapturethread python script in a directory where you would like to save the behavioural data.
+4. Open PsychoPy and open the videocapturethread script. Press the run button (Control + R).
+5. Fill in the prompt that pops up with the following info:
    - Animal ID
       - Eg. Pepe, Kermit, PluToad, MC Hopper, Toadie, Sir Croaks-A-Lot, SnoopFrogg, etc
    - Timepoint
@@ -100,7 +105,11 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
       - Eg. Vehicle, Drugs!, Visual Stimulation, Soft Rock Music, etc
    - **Important: Do not use _ underscores, / back slashes, \ forward slashes, | vertical bar, ? question marks, < less than, > greater than, : colon, or * asterisks, when filling out the above info. Recommended that you use alphanumeric responses. Spaces are OK. Periods are probably OK but I would avoid using them.**
    - **Note that if you enter in values that correspond to previously captured data, the script will overwrite the old data.**
-5. 
+6. The script will now run. Ten avi video files will be collected and one timings csv file.
+
+# Categorization of escape behaviour
+
+1. 
 
 ## Versioning
 
