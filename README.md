@@ -141,7 +141,7 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
    -  If the tadpole has not been removed from the image, press no, and at the next prompt, select a region of background instead. It may work better if you restart the script and initially select a small region around the tadpole (such as just the belly).
 7. Automatic tracking commences. If the script cannot detect the tadpole's location, it will prompt you to select the location of the tadpole manually. 
    -  If the tracking was unsuccessful:
-      - Try chanigng the value for `alpha`. 8 is a good starting point, but it may work better in the 2-30 range.
+      - Try changing the value for `alpha`. 8 is a good starting point, but it may work better in the 2-30 range.
    -  If angle tracking seems innacurate:
       - Try a different value for `crossover_angle`. 70, 90, 130 are good numbers to try.
       - Try a different value for `ellipse_quality`. Values from 1.01 to 1.3 are good numbers to try.
