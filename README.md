@@ -120,7 +120,7 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
 5. After all videos in the directory are categorized, a csv file is generated called response_to_loom_sorted.csv
    - Escape behaviour is coded as 1, lack of escape behaviour is coded as 0, and undeterminable is coded as an empty cell.
 
-### Motor activity - Contrail, distance travelled, 
+### Motor activity
 
 0. First time setup:
    - Measure the diameter of the bottom of your petri dish. Edit the `petri_dish=560` line so that the value corresponds to the diameter of the dish in mm. No need to change this line if you use the Fisherbrand petri dishes that we use.
@@ -150,8 +150,8 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
 10. Contrails will be outputted into the /contrails/ directory.
 11. Instantaneous velocity 3 seconds before and after the looming stimulus is outputted in the /output_data/ directory in a csv file.
 12. After running all the trials through the tadpole-tracker.py script
-   -  The data.csv file can be sorted using the sort_data.py script.
-   -  Contrails within animals can be merged using the contrail-merger.py script.
+      -  The data.csv file can be sorted using the sort_data.py script.
+      -  Contrails within animals can be merged using the contrail-merger.py script.
  
 ## Versioning
 
