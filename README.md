@@ -86,7 +86,8 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
 
 ## Running the experiment
 
-# Collecting Data
+### Collecting Data
+
 1. Use the videocapturetest.py script to view the webcam feed. Ensure that:
    - The petri dish is centered
    - The webcam is positioned directly overhead
@@ -107,7 +108,7 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
    - **Note that if you enter in values that correspond to previously captured data, the script will overwrite the old data.**
 6. The script will now run. Ten avi video files will be collected and one timings csv file.
 
-# Categorization of escape behaviour
+### Categorization of escape behaviour
 
 1. 
 
