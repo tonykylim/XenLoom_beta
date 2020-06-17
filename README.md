@@ -126,6 +126,7 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
 2. Change the filename line to match the filename of the video to analyze (without the .avi extension)
 3. Run tadpole-tracker.py
 4. The first prompt asks to confirm that the petri dish is properly detected. This sets the scale of the video data.
+-  <img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/circle_detect.png" width=50% height=50% />
 5. 
 
 ## Versioning
