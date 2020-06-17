@@ -88,14 +88,14 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
 
 ### Collecting Data
 
-1. Use the videocapturetest.py script to view the webcam feed. Ensure that:
+1. Run the videocapturetest.py script to view the webcam feed. Ensure that:
    - The petri dish is centered
    - The webcam is positioned directly overhead
    - No glare obscures the petri dish
 2. Open "background image settings" in windows system settings, and from the dropdown menu select "solid color".
    - Set the background to white if doing dark looming stimuli experiments.
    - Set the background to black if doing bright looming stimuli experiments.
-3. Place the videocapturethread python script in a directory where you would like to save the behavioural data.
+3. Place the stimpresent-videocapturethread.py script in a directory where you would like to save the behavioural data.
 4. Open PsychoPy and open the videocapturethread script. Press the run button (Control + R).
 5. Fill in the prompt that pops up with the following info:
    - Animal ID
@@ -110,7 +110,23 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
 
 ### Categorization of escape behaviour
 
-1. 
+1. Copy the escape-decision.py script to the folder with the video files, or vice-versa.
+2. Run the escape-decision.py script.
+3. A random video will play. Categorize the behaviour as:
+   - Escape behaviour
+   - Lack of escape behaviour
+   - Undeterminable (If you are unsure just pick this. Usually this happens if the tadpole was moving quickly just before the looming stimulus was sent.)
+4. The next random video will then play. Do step 3 for all video files in the directory.
+5. After all videos in the directory are categorized, a csv file is generated.
+   - Escape behaviour is coded as 1, lack of escape behaviour is coded as 0, and undeterminable is coded as an empty cell
+
+### Motor activity
+
+1. Copy the tadpole-tracker.py script to the directory with the video files.
+2. Change the filename line to match the filename of the video to analyze (without the .avi extension)
+3. Run tadpole-tracker.py
+4. The first prompt asks to confirm that the petri dish is properly detected. This sets the scale of the video data.
+5. 
 
 ## Versioning
 
