@@ -123,7 +123,7 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
 ### Motor activity
 
 0. First time setup:
-   - Measure the diameter of the bottom of your petri dish. Edit the `petri_dish=560` so that the value corresponds to the diameter of the dish in mm.
+   - Measure the diameter of the bottom of your petri dish. Edit the `petri_dish=560` line so that the value corresponds to the diameter of the dish in mm.
 1. Copy the tadpole-tracker.py script to the directory with the video files.
 2. Change the filename line to match the filename of the video to analyze (without the .avi extension)
 3. Run tadpole-tracker.py
@@ -131,7 +131,9 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
    <img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/circle_detect.png" width=50% height=50% /></br>
    -  A green circle should be drawn over the perimeter of the petri dish bottom. If everything looks OK, press space to continue.
    -  If the circle isn't the right size, modify the `pdmaxrad=230` value to be a slightly larger (if the circle was too small) or smaller number (if the circle was too large) and try again.
- 5. 
+5. At the next prompt, draw a rectangle over the tadpole using the mouse.
+   <img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/roi_tadpole.png" width=50% height=50% /></br>
+   -  Then press spacebar.
 
 ## Versioning
 
