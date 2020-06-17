@@ -125,31 +125,31 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
 0. First time setup:
    - Measure the diameter of the bottom of your petri dish. Edit the `petri_dish=560` line so that the value corresponds to the diameter of the dish in mm. No need to change this line if you use the Fisherbrand petri dishes that we use.
    
-1.  Copy the tadpole-tracker.py script to the directory with the video files.
-2.  Change the filename line to match the filename of the video to analyze (without the .avi extension)
-3.  Run tadpole-tracker.py
-4.  The first prompt asks to confirm that the petri dish is properly detected. This sets the scale of the video data.
+1. Copy the tadpole-tracker.py script to the directory with the video files.
+2. Change the filename line to match the filename of the video to analyze (without the .avi extension)
+3. Run tadpole-tracker.py
+4. The first prompt asks to confirm that the petri dish is properly detected. This sets the scale of the video data.
    <img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/circle_detect.png" width=50% height=50% />
    -  A green circle should be drawn over the perimeter of the petri dish bottom. If everything looks OK, press space to continue.
    -  If the circle isn't the right size, modify the `pdmaxrad=230` value to be a slightly larger (if the circle was too small) or smaller number (if the circle was too large) and try again.
-5.  At the next prompt, draw a rectangle over the tadpole using the mouse.
+5. At the next prompt, draw a rectangle over the tadpole using the mouse.
    <img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/roi_tadpole.png" width=50% height=50% />
    -  Then press spacebar.
-6.  If the tadpole moved out of the drawn box by the end of the video, then it will have been subtracted from the image.
+6. If the tadpole moved out of the drawn box by the end of the video, then it will have been subtracted from the image.
    <img src="https://github.com/tonykylim/XenLoom_beta/blob/master/~expected-results/background_subtracted.png" width=50% height=50% />
    -  If the tadpole has been removed from the image, press yes.
    -  If the tadpole has not been removed from the image, press no, and at the next prompt, select a region of background instead. It may work better if you restart the script and initially select a small region around the tadpole (such as just the belly).
-7.  Automatic tracking commences. If the script cannot detect the tadpole's location, it will prompt you to select the location of the tadpole manually. 
+7. Automatic tracking commences. If the script cannot detect the tadpole's location, it will prompt you to select the location of the tadpole manually. 
    -  If the tracking was unsuccessful:
       - Try chanigng the value for `alpha`. 8 is a good starting point, but it may work better in the 2-30 range.
    -  If angle tracking seems innacurate:
       - Try a different value for `crossover_angle`. 70, 90, 130 are good numbers to try.
       - Try a different value for `ellipse_quality`. Values from 1.01 to 1.3 are good numbers to try.
- 8.  After successful tracking, save the data by pressing yes.
- 9.  If it doesn't already exist, a csv file called data.csv will be generated. If it already exists, data will be appended to this file. This file contains escape distance, maximum escape velocity, and escape angle data.
- 10. Contrails will be outputted into the /contrails/ directory.
- 11. Instantaneous velocity 3 seconds before and after the looming stimulus is outputted in the /output_data/ directory in a csv file.
- 12. After running all the trials through the tadpole-tracker.py script
+8. After successful tracking, save the data by pressing yes.
+9. If it doesn't already exist, a csv file called data.csv will be generated. If it already exists, data will be appended to this file. This file contains escape distance, maximum escape velocity, and escape angle data.
+10. Contrails will be outputted into the /contrails/ directory.
+11. Instantaneous velocity 3 seconds before and after the looming stimulus is outputted in the /output_data/ directory in a csv file.
+12. After running all the trials through the tadpole-tracker.py script
    -  The data.csv file can be sorted using the sort_data.py script.
    -  Contrails within animals can be merged using the contrail-merger.py script.
  
