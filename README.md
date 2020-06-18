@@ -33,7 +33,7 @@ Requirements to run this behavioural assay:
 2. Additional python libraries:
    - cv2
    - psychopy
-   - imutils
+      - these packages come with the Psychopy 3
 3. Required equipment
    - Carolina 8-inch culture dish https://www.carolina.com/lab-dishes/culture-dishes-carolina-8-in-1500-ml/741006.pr
    - 3D printed stage https://www.thingiverse.com/thing:4335395
@@ -57,12 +57,7 @@ Requirements to run this behavioural assay:
 ## Installing
 
 1. Install Psychopy 3 https://www.psychopy.org/
-2. Download code to a directory where you would like to save:
-   - .csv files (timing data)
-   - .avi files (video data)
-3. Install additional python libraries
-   - Open a command prompt (Windows button + R, type "cmd" and hit enter)
-   - "python -m pip install imutils" 
+2. Download the XenLoom code
 
 ## Experimental setup
 
@@ -96,6 +91,7 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
    - Set the background to white if doing dark looming stimuli experiments.
    - Set the background to black if doing bright looming stimuli experiments.
 3. Place the stimpresent-videocapturethread.py script in a directory where you would like to save the behavioural data.
+   - It is recommended that you use a new folder for each group of animals, and separate dark looming experiments from bright looming experiments
 4. Open PsychoPy and open the videocapturethread script. Press the run button (Control + R).
 5. Fill in the prompt that pops up with the following info:
    - Animal ID
@@ -110,12 +106,13 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
 
 ### Categorization of escape behaviour
 
-1. Copy the escape-decision.py script to the folder with the video files, or vice-versa.
-2. Run the escape-decision.py script.
+1. Copy the escape-decision.py script to the folder with the video files.
+2. Open the escape-decision.py script with PsychoPy and run it.
 3. A random video will play. Categorize the behaviour as:
    - Escape behaviour
    - Lack of escape behaviour
    - Undeterminable (If you are unsure just pick this. Usually this happens if the tadpole was moving quickly just before the looming stimulus was sent.)
+   - If you are unsure, you can replay the video. Evaluating tadpole escape responses may take some getting used to.
 4. The next random video will then play. Do step 3 for all video files in the directory.
 5. After all videos in the directory are categorized, a csv file is generated called response_to_loom_sorted.csv
    - Escape behaviour is coded as 1, lack of escape behaviour is coded as 0, and undeterminable is coded as an empty cell.
@@ -123,7 +120,7 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
 ### Motor activity
 
 0. First time setup:
-   - Measure the diameter of the bottom of your petri dish. Edit the `petri_dish=560` line so that the value corresponds to the diameter of the dish in mm. No need to change this line if you use the Fisherbrand petri dishes that we use.
+   - Measure the diameter of the bottom of your petri dish. Edit the `diameter=52` line so that the value corresponds to the diameter of the dish in mm. No need to change this line if you use the Fisherbrand petri dishes that we use.
    
 1. Copy the tadpole-tracker.py script to the directory with the video files.
 2. Change the filename line to match the filename of the video to analyze (without the .avi extension)
@@ -148,10 +145,8 @@ Diagram of setup: <br /> <img src="https://github.com/tonykylim/XenLoom_beta/blo
 8. After successful tracking, save the data by pressing yes.
 9. If it doesn't already exist, a csv file called data.csv will be generated. If it already exists, data will be appended to this file. This file contains escape distance, maximum escape velocity, and escape angle data.
 10. Contrails will be outputted into the /contrails/ directory.
-11. Instantaneous velocity 3 seconds before and after the looming stimulus is outputted in the /output_data/ directory in a csv file.
-12. After running all the trials through the tadpole-tracker.py script
-      -  The data.csv file can be sorted using the sort_data.py script.
-      -  Contrails within animals can be merged using the contrail-merger.py script.
+11. Instantaneous velocity 3 seconds before and after the looming stimulus is outputted in the /output_speed/ directory in a csv file.
+12. After running all the trials through the tadpole-tracker.py script, contrails within animals can be merged using the contrail-merger.py script in the /contrails/ directory.
  
 ## Versioning
 
