@@ -2,6 +2,9 @@ import glob, random, cv2, csv, os
 from datetime import datetime
 from tkinter import *
 
+## set playback speed (eg. 3 = 3X real-time)
+playback_speed = 3
+
 def user_yes():
     global replay
     replay = False
@@ -49,10 +52,10 @@ if os.path.exists('response_to_loom.csv') == False:
             datafileinitwriter = csv.writer(datafileinit)
             datafileinitwriter.writerow( [ 'Animal ID', 'Timepoint', 'Treatment', 'Trial #', 'Response', 'Timestamp' ] )
 
-# load video files into list
+# load video files
 video_file_list = glob.glob("*.avi")
 
-# randomize list
+# randomize order
 random.shuffle(video_file_list)
 
 # number of videos
@@ -86,23 +89,25 @@ for video_file in video_file_list:
     animalID, timepoint, treatment, trial = filename.split("_")
     trial_num = int(trial[-1:])
     
-    # open the csv file associated with thie video and save it as a list
+    # retreive timing settings
     capture_data = []
-    with open(animalID + '_' + timepoint + '_' + treatment + '_whiteloom_timings.csv', newline='') as csvfile:
+        timingscsvlist = glob.glob(f'{animalID}_{timepoint}_{treatment}_*_timings.csv')
+    with open(timingscsvlist[0], newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             capture_data.append(row)
     
-    # timing data from CSV
-    stim_start = float(capture_data[trial_num]['stim time'])
+    # timing data
+    stim_start = float(capture_data[trial_num]['stim begin'])
+    stim_end = float(capture_data[trial_num]['stim end'])
     trial_start = float(capture_data[trial_num]['start'])
-    stim_time = stim_start - trial_start
+    stim_time = stim_start-trial_start
     videofps = float(capture_data[trial_num]['fps'])
-    stim_frame = int( stim_time * videofps )
-    buffer_2 = 2 * videofps
+    stim_frame = int(stim_time*videofps)
+    stim_end_time = stim_end-trial_start
+    stim_end_frame = int(stim_end_time*videofps)
     
     replay = True
-    
     # play the video
     while replay == True:
         video.set(cv2.CAP_PROP_POS_FRAMES, 0)
@@ -115,13 +120,13 @@ for video_file in video_file_list:
             frame_num += 1
             
             # display LOOMING when stimulus occurs
-            if frame_num > stim_frame and frame_num < stim_frame + buffer_2:
+            if frame_num > stim_frame and frame_num < stim_end_frame+1:
                 cv2.putText(frame, "LOOMING", (frame.shape[1] - 180, 40), cv2.FONT_HERSHEY_SIMPLEX, 1.2, (255, 0, 0), 4)
             
             # Display the frame
             cv2.imshow("Video", frame)
             # Exit if ESC pressed
-            k = cv2.waitKey(10) & 0xff
+            k = cv2.waitKey(30/playback_speed) & 0xff
             if k == 27 : break
         
         # get user response
@@ -139,9 +144,12 @@ for video_file in video_file_list:
         l.pack()
         f.pack()
         f.mainloop()
-        
-        
 
-
-
-
+# sort data
+with open('response_to_loom.csv', mode='rt', newline='') as data, open('response_to_loom_sorted.csv', 'w', newline='') as sorted_data:
+    writer = csv.writer(sorted_data, delimiter=',')
+    reader = csv.reader(data, delimiter=',')
+    writer.writerow(next(reader))
+    data = sorted(reader, key=lambda row: (int(row[0]), int(row[3])))  
+    for row in data:
+        writer.writerow(row)

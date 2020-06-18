@@ -1,6 +1,11 @@
 import cv2
 
+## run this script to turn on the webcam and preview the webcam stream
+
+## if your computer opens the wrong webcam, change the 0 to a 1
 cap = cv2.VideoCapture(0 + cv2.CAP_DSHOW)
+
+
 cap.set(cv2.CAP_PROP_AUTOFOCUS, 0)
 cap.set(cv2.CAP_PROP_FOCUS, 40)
 cap.set(cv2.CAP_PROP_FPS, 30)
